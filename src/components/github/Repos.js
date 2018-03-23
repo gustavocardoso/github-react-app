@@ -30,7 +30,6 @@ class Repos extends Component {
     return (
       <div>
         <form onSubmit={ this.handleSubmit }>
-          <label htmlFor='username'>User name: </label>
           <input
             type='search'
             placeholder='type here and pres ENTER'
